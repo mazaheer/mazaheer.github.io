@@ -49,6 +49,17 @@ Here is my [CV](docs/assets/My_CV-2.pdf).
   
 </ul>
 
+
+#### Some useful webpages and blogs
+
+<ul style="list-style-type:circle"> 
+
+  <li> William Stein's <a href="<!--   <li><a href=""> </a></li> -->">webpage</a></li> (contains nice photos and LaTeX templates)
+  <li> Kein Conrad <a href="https://kconrad.math.uconn.edu">webpage</a></li> (treasure of notes on almost everything)
+  <li> Terry Tao's <a href= "https://terrytao.wordpress.com">blog</a><li> 
+</ul>
+
+
 ### Notes
 
 #### Algebraic Geometry
