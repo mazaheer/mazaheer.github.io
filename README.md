@@ -12,9 +12,9 @@ Here is my [CV](docs/assets/My_CV-2.pdf).
 
 ### Notes
 
-### Algebraic Geometry:
+#### Algebraic Geometry:
 
-#### Affine Varieties:
+##### Affine Varieties:
 
 <ul style="list-style-type:circle"> 
 <li><a href = "(docs/assets/Algebraic_Geometry-10.pdf)">(April 4, 2025)</a></li>
