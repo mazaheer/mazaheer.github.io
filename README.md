@@ -8,6 +8,20 @@ Here is my [CV](docs/assets/My_CV-2.pdf).
 <ul style="list-style-type:circle"> 
 <li><a href="https://en.wikipedia.org/wiki/Barry_Mazur">Barry Mazur</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Bob_Vaughan">Robert Vaughan</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Henri_Darmon">Henri Darmon</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Jacob_Lurie">Jacob Lurie</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/James_Milne_(mathematician)">James Milne</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Bhargav_Bhatt_(mathematician)">Bhargav Bhatt</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Bjorn_Poonen">Bjorn Poonen</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Noam_Elkies">Noam Elkies</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Andrew_Sutherland_(mathematician)">Andrew Sutherland</a></li>
+  <li><a href="https://math.uconn.edu/person/jeremy-teitelbaum/">Jeremy Teitelbaum</a></li>
+  <li><a href="https://sites.google.com/view/jared-weinstein/home">Jared Weinstein</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Melanie_Wood">Melanie Matchett Wood</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Lawrence_C._Washington">Larry Washington</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Mark_Kisin">Mark Kisin</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Joseph_H._Silverman">Joseph Silverman</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Brian_Conrad">Brian Conrad</a></li>
 </ul>
 
 ### Notes
