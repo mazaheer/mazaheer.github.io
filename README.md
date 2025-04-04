@@ -4,8 +4,18 @@ I am a first year graduate student in mathematics at Pennsylvania State Universi
 
 Here is my [CV](docs/assets/My_CV-2.pdf). 
 
-### Mathematicians I have met or seen in person
+### List of mathematicians I have met or seen in person
 <ul style="list-style-type:circle"> 
 <li><a href="https://en.wikipedia.org/wiki/Barry_Mazur">Barry Mazur</a></li>
 <li><a href="https://en.wikipedia.org/wiki/Bob_Vaughan">Robert Vaughan</a></li>
+</ul>
+
+### Notes
+
+### Algebraic Geometry:
+
+#### Affine Varieties:
+
+<ul style="list-style-type:circle"> 
+<li><a href = "(docs/assets/Algebraic_Geometry-10.pdf)">(April 4, 2025)</a></li>
 </ul>
