@@ -6,6 +6,6 @@ Here is my [CV](docs/assets/My_CV-2.pdf).
 
 ### Mathematicians I have met or seen in person
 <ul style="list-style-type:circle"> 
-<li>[Barry Mazur](https://en.wikipedia.org/wiki/Barry_Mazur)</li>
-<li>[Robert Vaughan](https://en.wikipedia.org/wiki/Bob_Vaughan)</li>
+<li><a href="https://en.wikipedia.org/wiki/Barry_Mazur">Barry Mazur</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Bob_Vaughan">Robert Vaughan</a></li>
 </ul>
