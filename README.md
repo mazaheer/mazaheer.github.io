@@ -56,7 +56,7 @@ Here is my [CV](docs/assets/My_CV-2.pdf).
 
   <li> William Stein's <a href="https://wstein.org">webpage</a> (contains nice photos and LaTeX templates) </li> 
   <li> Kein Conrad <a href="https://kconrad.math.uconn.edu">webpage</a> (treasure of notes on almost everything) </li> 
-  <li> Terry Tao's <a href= "https://terrytao.wordpress.com">blog</a> (can be depressing at time to fathom how much one can possibly achieve)<li> 
+  <li> Terry Tao's <a href= "https://terrytao.wordpress.com">blog</a> (can be depressing at time to fathom how much one can possibly achieve)</li> 
     
 </ul>
 
