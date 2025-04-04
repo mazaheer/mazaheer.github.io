@@ -3,3 +3,7 @@ title: Muhammad Atif Zaheer
 description: Grad Student | Penn State University
 #show_downloads: true
 theme: jekyll-theme-minimal
+
+
+header_pages:
+  - writing.html
