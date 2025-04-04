@@ -1,1 +1,5 @@
-Hello.
+layout: page
+title: "About"
+permalink: /about/
+
+Hello bro.
