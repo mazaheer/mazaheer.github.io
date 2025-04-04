@@ -1,5 +1,3 @@
 main:
-  - title: "Resources"
-    url: /resources/
-  - title: "Notes"
-    url: /notes/
+  - title: "About"
+    url: /about/
