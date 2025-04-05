@@ -1,11 +1,11 @@
-title: Muhammad Atif Zaheer
-email: mvz5421@psu.edu
+title: Andrea Ricolfi
+email: aricolfi@sissa.it
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
 # Minima date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
-# minima:
+minima:
   date_format: "%b %-d, %Y"
 
   # generate social links in footer
@@ -30,6 +30,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # this and add the path to the pages in order as they should show up
 header_pages:
  - writing.html
+ - teaching.html
  - agseminar.html
  - supervision.html
  - distractions.html
