@@ -71,11 +71,39 @@ Affine Varieties
 <li><a href = "docs/assets/Algebraic_Geometry-10.pdf">(April 4, 2025)</a></li>
 </ul>
 
+Projective Varieties (coming soon)
+
+Sheaves (coming soon)
+
+Schemes (coming soon)
+
 #### Funtional Analysis
 
 Banach Spaces
 
 <ul style="list-style-type:circle"> 
-<li><a href = "docs/assets/Algebraic_Geometry-10.pdf">(April 4, 2025)</a></li>
+<li><a href = "docs/assets/Functional_Analysis-30.pdf">(April 4, 2025)</a></li>
 </ul>
+
+Hilbert Spaces (coming soon)
+
+#### Algebraic Number Theory
+
+Number Fields (coming soon)
+
+#### Analytic Number Theory
+
+Arithmetical Functions (coming soon)
+
+Estimates of Arithmetical Functions (coming soon)
+
+Dirichlet Series (coming soon)
+
+Prime Number Theorem (coming soon)
+
+Characters and Primes in Arithmetic Progressions (coming soon)
+
+The Large Sieve (coming soon)
+
+Bombieri-Vinogradov's Theorem (coming soon)
 
