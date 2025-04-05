@@ -8,3 +8,7 @@ I am primarily interested in analytic number theory (sieve methods, Riemann zeta
 
 
 Here is my <a href = "docs/assets/My_CV-2.pdf">CV</a>.
+
+
+Here are my <a href = "notes.html">notes</a>.
+
