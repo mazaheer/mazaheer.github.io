@@ -71,3 +71,11 @@ Affine Varieties
 <li><a href = "docs/assets/Algebraic_Geometry-10.pdf">(April 4, 2025)</a></li>
 </ul>
 
+#### Funtional Analysis
+
+Banach Spaces
+
+<ul style="list-style-type:circle"> 
+<li><a href = "docs/assets/Algebraic_Geometry-10.pdf">(April 4, 2025)</a></li>
+</ul>
+
