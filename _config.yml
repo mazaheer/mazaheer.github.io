@@ -1,5 +1,5 @@
-title: Andrea Ricolfi
-email: aricolfi@sissa.it
+title: Muhammad Atif Zaheer
+email: mvz5421@psu.edu
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -29,14 +29,14 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
 header_pages:
- - writing.html
- - teaching.html
+ - Notes.html
+ - Resources.html
  - agseminar.html
  - supervision.html
  - distractions.html
 
 # Build settings
-theme: minimal
+theme: minima
 
 plugins:
  - jekyll-feed
