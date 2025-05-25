@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Projects</title>
+
+  <style>
+    body { display: none; }
+  </style>
+
   <script>
     var password = prompt("Enter password:");
-    if (password !== "243466") {
-      document.body.innerHTML = "Access denied.";
+    if (password === "243466") {
+      document.body.style.display = "block";
+    } else {
+      document.write("Access denied.");
     }
   </script>
 </head>
