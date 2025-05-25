@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Projects</title>
-  <link rel="stylesheet" href="style.css">
+  <script>
+    var password = prompt("Enter password:");
+    if (password !== "243466") {
+      document.body.innerHTML = "Access denied.";
+    }
+  </script>
 </head>
 <body>
   <h1>Projects</h1>
