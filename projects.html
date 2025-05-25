@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Projects</title>
-
   <style>
-    body { display: none; }
+    #content {
+      display: none;
+    }
   </style>
-
   <script>
     var password = prompt("Enter password:");
     if (password === "243466") {
-      document.body.style.display = "block";
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("content").style.display = "block";
+      });
     } else {
       document.write("Access denied.");
     }
