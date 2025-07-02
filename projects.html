@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Projects</title>
+  <style>
+    #content {
+      display: none;
+    } 
+  </style>
+  <script>
+    var password = prompt("Enter password:");
+    if (password === "243466") {
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("content").style.display = "block";
+      });
+    } else {
+      document.write("Access denied.");
+    }
+  </script>
+</head>
+<body>
+  <div id="content">
+
+  <h1>Projects</h1>
+
+  <ul>
+    <li><a href = "projects/Leiden_notes.html">Leiden Notes</a></li>
+    <li><a href = "projects/Murty_problems.html"></a></li>
+    <li><a href = "projects/Marcus.html"></a></li>
+    <li><a href = "projects/Math_204A.html"></a></li>
+    <li><a href = "projects/Marcus.html"></a></li>
+    <li><a href = "projects/Stein&Shakarchi.html"></a></li>
+    <li><a href = "projects/Pair_Correlation.html"></a></li>
+  </ul>
+  </div>
+</body>
+</html>
