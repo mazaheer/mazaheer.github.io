@@ -1,0 +1,14 @@
+/* style.css */
+body {
+  font-size: 18px;         /* sets the base font size */
+  font-family: Arial, sans-serif; /* optional: cleaner font */
+  line-height: 1.6;        /* optional: improves readability */
+}
+
+h2 {
+  font-size: 28px;         /* larger heading */
+}
+
+p {
+  font-size: 18px;         /* paragraph font size */
+}
