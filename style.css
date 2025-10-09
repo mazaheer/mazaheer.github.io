@@ -2,7 +2,7 @@
 body {
   font-size: 18px;         /* sets the base font size */
   font-family: Times; /* optional: cleaner font, Arial, sans-serif */
-  line-height: 1.6;        /* optional: improves readability */
+  line-height: 1.2;        /* optional: improves readability */
 }
 
 h2 {
