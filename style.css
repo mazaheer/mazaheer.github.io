@@ -1,7 +1,7 @@
 /* style.css */
 body {
-  font-size: 18px;         /* sets the base font size */
-  font-family: Times; /* optional: cleaner font, Arial, sans-serif */
+  font-size: 22px;         /* sets the base font size */
+  font-family: Calibri; /* optional: cleaner font, Arial, sans-serif */
   line-height: 1.2;        /* optional: improves readability */
 }
 
@@ -10,7 +10,7 @@ h2 {
 }
 
 p {
-  font-size: 18px;         /* paragraph font size */
+  font-size: 22px;         /* paragraph font size */
 }
 
 
