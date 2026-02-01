@@ -1,2 +1,22 @@
-kramdown:
-  auto_ids: false
+title: "Atif Zaheer"
+description: "Mathematics | Analytic Number Theory"
+url: "https://yourusername.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+author:
+  name   : "Atif Zaheer"
+  avatar : "/assets/images/profile.jpg"
+  bio    : "PhD student in mathematics. Interests: analytic number theory, zeta functions."
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
