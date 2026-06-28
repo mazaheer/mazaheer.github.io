@@ -1,2 +1,0 @@
-# maxxu
-Max Xu Homepage
