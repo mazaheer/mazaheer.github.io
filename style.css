@@ -12,6 +12,10 @@
     color: #003366;
 } */
 
+body {
+    background-color: lightyellow;
+}
+
 p {
     font-size: 18px;
 } */
