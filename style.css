@@ -25,3 +25,9 @@ hr {
   border-top: 1px solid #777;
   margin: 20px 0;
 }
+
+ul,
+ol,
+li {
+  font-size: 1rem;
+}
