@@ -19,3 +19,9 @@
 p {
     font-size: 18px;
 } */
+
+hr {
+  border: 0;
+  border-top: 1px solid #777;
+  margin: 20px 0;
+}
