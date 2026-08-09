@@ -113,5 +113,48 @@ nav ul ul {
 			}
 
 
+/* For images */
+
+.photo-block img {
+  cursor: pointer;
+}
+
+/* Full-screen dark background */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Display the lightbox when it is opened */
+.lightbox.open {
+  display: flex;
+}
+
+/* Large image inside the lightbox */
+.lightbox-image {
+  max-width: 95vw;
+  max-height: 95vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Close button */
+.lightbox-close {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 45px;
+  cursor: pointer;
+}
 
 </style>
