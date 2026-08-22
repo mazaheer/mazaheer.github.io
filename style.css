@@ -152,4 +152,8 @@ nav ul ul {
   font-size: 14px;
   line-height: 1.35;
 }
+td {
+    vertical-align: top;
+}
+
 </style>
