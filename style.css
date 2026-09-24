@@ -1,3 +1,13 @@
 body {
     font-size: 18px;
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header img {
+    height: 120px;
+}
