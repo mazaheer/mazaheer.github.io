@@ -17,3 +17,7 @@ body {
     height: 250px;
     margin-left: 100px;
 }
+
+.widelist li {
+  margin-bottom: 10px;
+}
