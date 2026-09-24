@@ -11,3 +11,8 @@ body {
 .header img {
     height: 160px;
 }
+
+.profile-photo {
+    height: 200px;
+    margin-left: 50px;
+}
