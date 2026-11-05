@@ -1,0 +1,40 @@
+/* Traditional academic homepage. Edit the variables to change the design. */
+:root {
+  --text: #202020;
+  --link: #123d88;
+  --visited: #663399;
+  --rule: #d6d6d6;
+  --width: 760px;
+}
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  font-family: "Palatino Linotype", Palatino, "Book Antiqua", "TeX Gyre Pagella", Georgia, serif;
+  line-height: 1.55;
+  color: var(--text);
+  background: #fff;
+  margin: 0;
+  padding: 30px 22px 55px;
+}
+.container { max-width: var(--width); margin: 0 auto; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+a:visited { color: var(--visited); }
+a:hover { color: #a32626; }
+header h1 { font-size: 1.8rem; font-weight: normal; line-height: 1.2; margin: 0 0 7px; }
+header .subtitle { margin: 0 0 13px; }
+nav { margin: 14px 0 20px; font-size: .97rem; }
+nav a { margin-right: 13px; white-space: nowrap; }
+nav a[aria-current="page"] { color: var(--text); text-decoration: none; font-weight: bold; }
+hr { border: 0; border-top: 1px solid var(--rule); margin: 15px 0 22px; }
+h2 { font-size: 1.25rem; font-weight: normal; margin: 30px 0 9px; }
+h3 { font-size: 1.05rem; margin: 18px 0 6px; }
+p { margin: 0 0 13px; }
+ul, ol { padding-left: 25px; margin: 7px 0 15px; }
+li { margin-bottom: 7px; }
+.small { font-size: .92rem; }
+.muted { color: #555; }
+.profile { display: flex; align-items: flex-start; gap: 25px; }
+.profile .bio { flex: 1; min-width: 0; }
+.portrait { width: 150px; height: 185px; border: 1px solid #d4d4d4; background: #fafafa; flex: none; display:flex; align-items:center; justify-content:center; text-align:center; color:#777; font-size:.83rem; padding: 10px; }
+footer { border-top: 1px solid var(--rule); margin-top: 36px; padding-top: 12px; font-size: .85rem; color: #666; }
+@media(max-width:550px) { body { padding:22px 18px 45px; } .profile { flex-direction:column-reverse; gap: 12px; } .portrait { width:120px; height:145px; } nav a { display:inline-block; margin:0 10px 7px 0; } }
