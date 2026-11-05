@@ -1,17 +1,169 @@
-:root{--bg:#fff;--fg:#222;--muted:#666;--link:#1a5fb4;--rule:#e2e2e2}
-@media (prefers-color-scheme:dark){:root{--bg:#161616;--fg:#e8e8e8;--muted:#a0a0a0;--link:#7db3ff;--rule:#333}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--fg);font-family:Georgia,"Times New Roman",serif;line-height:1.65}
-.wrap{max-width:760px;margin:0 auto;padding:1.5rem 1.25rem 4rem}
-nav{display:flex;gap:1.5rem;padding-bottom:.75rem;border-bottom:1px solid var(--rule);margin-bottom:2rem;font-family:system-ui,sans-serif;font-size:.95rem}
-nav a{color:var(--muted);text-decoration:none}
-nav a:hover,nav a.active{color:var(--fg);border-bottom:2px solid var(--link)}
-a{color:var(--link)}
-h1{font-size:2rem;margin:.2rem 0}
-h2{font-size:1.3rem;margin-top:2rem;border-bottom:1px solid var(--rule);padding-bottom:.2rem}
-.subtitle{color:var(--muted);margin:0 0 1rem}
-.hero{display:flex;gap:1.75rem;align-items:flex-start;flex-wrap:wrap}
-.hero img{width:170px;height:170px;object-fit:cover;border-radius:50%;border:1px solid var(--rule)}
-.hero .info{flex:1;min-width:240px;font-size:.95rem}
-.pub{margin:0 0 1rem;padding-left:0;list-style:none}
-footer{margin-top:3rem;color:var(--muted);font-size:.85rem;font-family:system-ui,sans-serif}
+
+/* =====================================================================
+   style.css  --  stylesheet for the academic homepage
+   Look: white background, Times New Roman, single centered column.
+   ===================================================================== */
+ 
+ 
+/* ---------------------------------------------------------------------
+   1. COLOR VARIABLES
+   Defined once here, then reused everywhere with var(--name).
+   To recolor the whole site, change only these values.
+   --------------------------------------------------------------------- */
+:root {
+  --bg:    #ffffff;   /* page background (white)                      */
+  --fg:    #222222;   /* main text color (near-black)                 */
+  --muted: #666666;   /* secondary text: nav links, subtitle, footer  */
+  --link:  #1a5fb4;   /* link color and nav underline (blue)          */
+  --rule:  #e2e2e2;   /* thin divider lines and the photo border      */
+ 
+  color-scheme: light;  /* keeps scrollbars/form controls light, even
+                           if the visitor's device is in dark mode    */
+}
+ 
+ 
+/* ---------------------------------------------------------------------
+   2. GLOBAL RESETS
+   --------------------------------------------------------------------- */
+ 
+/* Make width/height include padding and border, which makes layout
+   sizes predictable. Applies to every element. */
+* {
+  box-sizing: border-box;
+}
+ 
+/* Page-wide defaults: colors, font, and spacing between lines. */
+body {
+  margin: 0;                                   /* remove default page margin */
+  background: var(--bg);                       /* white background           */
+  color: var(--fg);                            /* default text color         */
+  font-family: "Times New Roman", Times, serif; /* Times, with fallbacks     */
+  line-height: 1.65;                           /* comfortable line spacing   */
+}
+ 
+ 
+/* ---------------------------------------------------------------------
+   3. PAGE LAYOUT
+   --------------------------------------------------------------------- */
+ 
+/* The <div class="wrap"> that surrounds all page content. */
+.wrap {
+  max-width: 760px;           /* never wider than 760px (readable lines) */
+  margin: 0 auto;             /* auto left/right margins center it       */
+  padding: 1.5rem 1.25rem 4rem;  /* top | left and right | bottom        */
+}
+ 
+ 
+/* ---------------------------------------------------------------------
+   4. NAVIGATION BAR  (Home | Research | Teaching | CV)
+   --------------------------------------------------------------------- */
+ 
+/* The bar itself: links in a horizontal row with a line beneath. */
+nav {
+  display: flex;                          /* put links side by side      */
+  gap: 1.5rem;                            /* space between the links     */
+  padding-bottom: 0.75rem;                /* space above the bottom line */
+  border-bottom: 1px solid var(--rule);   /* thin gray line under the bar*/
+  margin-bottom: 2rem;                    /* space below the whole bar   */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1rem;
+}
+ 
+/* Nav links: gray and no underline by default. */
+nav a {
+  color: var(--muted);
+  text-decoration: none;
+}
+ 
+/* On hover, and for the current page (class="active"):
+   darker text plus a blue underline. */
+nav a:hover,
+nav a.active {
+  color: var(--fg);
+  border-bottom: 2px solid var(--link);
+}
+ 
+ 
+/* ---------------------------------------------------------------------
+   5. TEXT ELEMENTS
+   --------------------------------------------------------------------- */
+ 
+/* Ordinary links in the page body. */
+a {
+  color: var(--link);
+}
+ 
+/* Main page title (your name). */
+h1 {
+  font-size: 2rem;
+  margin: 0.2rem 0;
+}
+ 
+/* Section headings (e.g. "Current Teaching"), with a thin line below. */
+h2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;                       /* space above the heading     */
+  border-bottom: 1px solid var(--rule);   /* divider line                */
+  padding-bottom: 0.2rem;                 /* gap between text and line   */
+}
+ 
+/* The line under your name, e.g. "PhD Candidate in Mathematics". */
+.subtitle {
+  color: var(--muted);
+  margin: 0 0 1rem;
+}
+ 
+ 
+/* ---------------------------------------------------------------------
+   6. HOME-PAGE HEADER (photo on the left, contact info on the right)
+   --------------------------------------------------------------------- */
+ 
+/* Container holding the photo and the info block. */
+.hero {
+  display: flex;           /* photo and text side by side              */
+  gap: 1.75rem;            /* space between photo and text             */
+  align-items: flex-start; /* align both at the top                    */
+  flex-wrap: wrap;         /* on narrow screens (phones), the text
+                              moves below the photo                    */
+}
+ 
+/* The portrait: a 170px circle. */
+.hero img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;                     /* crop to fill, no stretching */
+  border-radius: 50%;                    /* 50% rounding = a circle     */
+  border: 1px solid var(--rule);         /* thin gray outline           */
+}
+ 
+/* Name, affiliation and e-mail block next to the photo. */
+.hero .info {
+  flex: 1;           /* take up the remaining horizontal space      */
+  min-width: 240px;  /* wrap below the photo if narrower than this  */
+  font-size: 1rem;
+}
+ 
+ 
+/* ---------------------------------------------------------------------
+   7. PUBLICATION / ITEM LISTS  (<ul class="pub">)
+   --------------------------------------------------------------------- */
+ 
+/* A plain list: no bullets, no indent, gap below each list. */
+.pub {
+  margin: 0 0 1rem;
+  padding-left: 0;     /* remove the default indent        */
+  list-style: none;    /* remove the bullet points         */
+}
+ 
+ 
+/* ---------------------------------------------------------------------
+   8. FOOTER
+   --------------------------------------------------------------------- */
+ 
+/* Small gray copyright line at the bottom of each page. */
+footer {
+  margin-top: 3rem;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-family: "Times New Roman", Times, serif;
+}
