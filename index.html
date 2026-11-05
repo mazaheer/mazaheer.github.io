@@ -1,42 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Academic homepage of Muhammad Atif Zaheer, mathematics PhD student at Penn State University.">
-  <title>Muhammad Atif Zaheer</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alexis Newton</title>
+  <style>
+    /* Reset and base */
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #d8bfd8; /* thistle */
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
+    a {
+      color: indigo;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: rgba(75, 0, 130, 0.1);
+      border-bottom: 2px solid indigo;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      padding: 2rem 3rem;
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+
+    figure {
+      margin: 0;
+      flex: 1 1 250px;
+      text-align: center;
+    }
+    figure img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+
+    section {
+      flex: 2 1 500px;
+    }
+
+    h1 {
+      margin-bottom: 0.25rem;
+      color: indigo;
+    }
+    h2 {
+      border-bottom: 2px solid indigo;
+      padding-bottom: 0.25rem;
+      margin-top: 2rem;
+      color: #4b0082;
+    }
+
+    p, ul {
+      margin-top: 0.75rem;
+      margin-bottom: 0.75rem;
+    }
+
+    ul {
+      padding-left: 1.25rem;
+    }
+
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin: 2rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+  </style>
 </head>
-<body><div class="container"> 
+<body>
   <header>
-    <h1>Muhammad Atif Zaheer</h1>
-    <!-- <p class="subtitle">Ph.D. Student in Mathematics<br>Pennsylvania State University</p> -->
-    <nav aria-label="Main navigation">
-      <a href="index.html" aria-current="page">Home</a>
-      <a href="research.html">Research</a>
-      <a href="teaching.html">Teaching</a>
-      <a href="notes.html">Notes</a>
-      <a href="conferences.html">Conferences</a>
-    </nav>
+    <h1>Alexis Newton</h1>
+    <p>
+      <a href="mailto:anewton2@augusta.edu">anewton@highpoint.edu</a> | Office: 360 Couch Hall
+    </p>
+    <p>
+      <a href="https://www.highpoint.edu/mathematics/">Department of Mathematics</a> | 
+      <a href="https://www.highpoint.edu/">High Point University</a>
+    </p>
+    <p><a href="CV_Newton.pdf" target="_blank" rel="noopener noreferrer">Curriculum Vitae</a></p>
   </header>
-  <hr>
+
   <main>
-    <div class="profile">
-      <div class="bio">
-        <p>I am a Ph.D. student in Mathematics at Pennsylvania State University. My research interests lie primarily in <strong>analytic number theory</strong>, particularly the Riemann zeta function, its derivatives, and the distribution of zeros of zeta and related functions.</p>
-        <p>I am also interested in pair correlation and other questions concerning the statistical behavior of zeros of L-functions.</p>
-        <p><strong>Office:</strong> 417 McAllister Building, University Park, PA<br>
-        <strong>Email:</strong> <span class="muted">Add your university email here</span><br>
-        <strong>CV:</strong> <span class="muted">Add a link to your PDF CV</span></p>
-      </div>
-      <div class="portrait">
-          <!-- <img src="Atif.jpeg" alt="Credit: Zainab Ibrar"> -->
-      </div>
-    </div>
-    <h2>Research</h2>
-    <p>My work focuses on the analytic theory of zeta and L-functions, especially zero distributions and pair correlation. See the <a href="research.html">research page</a> for more information.</p>
-    <h2>Notes and teaching</h2>
-    <p>I collect expository mathematical notes on the <a href="notes.html">notes page</a> and information about my courses on the <a href="teaching.html">teaching page</a>.</p>
+    <figure>
+      <img src="alexis_headshot.jpg" alt="Headshot of Alexis Newton" />
+    </figure>
+
+    <section>
+      <h2>About Me</h2>
+      <p>My name is Alexis Newton, and I am an Assistant Professor at High Point University.</p>
+      <p>I completed my PhD in 2025 at Emory University. My advisor was <a href="https://dmzb.github.io/" target="_blank" rel="noopener noreferrer">David Zureick-Brown</a>.</p>
+      <p>I earned my MA in Mathematics at Wake Forest University under <a href="http://users.wfu.edu/rouseja/" target="_blank" rel="noopener noreferrer">Jeremy Rouse</a> in 2020, and I earned my BA in Mathematics and English Writing at High Point University in 2018.</p>
+      <p>Generally, I am interested in Arithmetic Geometry and Number Theory, with a preference for computational research.</p>
+      <p>My Curriculum Vitae can be found <a href="CV_Newton.pdf" target="_blank" rel="noopener noreferrer">here</a>.</p>
+
+      <h2>Publications</h2>
+      <ul>
+        <li>M. Cerchia, A. Newton, "Low-degree points on some rank 0 modular curves." (In preparation)</li>
+        <li>A. Newton, J. Rouse, <a href="https://www.cambridge.org/core/journals/canadian-mathematical-bulletin/article/integers-that-are-sums-of-two-rational-sixth-powers/36425CBE1A7009E8FCFCE0D383B1BE3F" target="_blank" rel="noopener noreferrer">Integers that are sums of two rational sixth powers</a>, published in Canadian Mathematical Bulletin, 07 March 2022.</li>
+        <li>A. Newton, "Prime Graph Labelings of C_n * S_4." Published in Innovation: Journal of Creative and Scholarly Work vol. 7, 2019. (High Point University Undergraduate Journal)</li>
+      </ul>
+
+      <h2>Teaching</h2>
+      <p>For the Fall 2026 semester, I am teaching MATH-1410 Calculus and MATH-2310 Linear Algebra. Information for those courses can be found on the class Blackboard site.</p>
+
+      
+      <h2>Writing</h2>
+      <p>I was a staff writer for the <a href="https://www.mathvalues.org/masterblog/category/Grad+Student+Blog" target="_blank" rel="noopener noreferrer">MAA Graduate Student Blog: Learning Through the Ranks</a>. I was also a writer for the <a href="https://blogs.ams.org/mathgradblog/" target="_blank" rel="noopener noreferrer">AMS Graduate Student Blog</a>, which was retired in 2021.</p>
+      <ul>
+        <li><a href="https://blogs.ams.org/mathgradblog/2021/11/15/what-i-needed-to-hear-but-no-one-said/" target="_blank" rel="noopener noreferrer">What I needed to hear, but no one said</a>, AMS Graduate Student Blog</li>
+        <li><a href="https://blogs.ams.org/mathgradblog/2021/10/18/midterm-studying-advice-i-could-have-used-a-week-ago/" target="_blank" rel="noopener noreferrer">Midterm studying advice I could have used a week ago</a>, AMS Graduate Student Blog</li>
+        <li><a href="https://www.mathvalues.org/masterblog/caffeine-the-frenemy-of-mathematicians" target="_blank" rel="noopener noreferrer">Caffeine: The Frenemy of Mathematicians</a>, MAA Graduate Student Blog</li>
+      </ul>
+    </section>
   </main>
-  <footer>Last updated: November 2026</footer>
-</div></body></html>
+
+  <footer>
+    &copy; 2026 Alexis Newton
+  </footer>
+</body>
+</html>
