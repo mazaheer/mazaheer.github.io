@@ -38,6 +38,7 @@ body {
   background: var(--bg);                       /* white background           */
   color: var(--fg);                            /* default text color         */
   font-family: "Times New Roman", Times, serif; /* Times, with fallbacks     */
+   font-size: 1.1rem;
   line-height: 1.65;                           /* comfortable line spacing   */
 }
  
@@ -66,7 +67,7 @@ nav {
   border-bottom: 1px solid var(--rule);   /* thin gray line under the bar*/
   margin-bottom: 2rem;                    /* space below the whole bar   */
   font-family: "Times New Roman", Times, serif;
-  font-size: 2rem;
+  font-size: 1.1rem;
 }
  
 /* Nav links: gray and no underline by default. */
