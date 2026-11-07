@@ -49,7 +49,7 @@ font-family: Garamond, serif;
  
 /* The <div class="wrap"> that surrounds all page content. */
 .wrap {
-  max-width: 760px;           /* never wider than 760px (readable lines) */
+  max-width: 1000px;           /* never wider than 760px (readable lines) */
   margin: 0 auto;             /* auto left/right margins center it       */
   padding: 1.5rem 1.25rem 4rem;  /* top | left and right | bottom        */
 }
